@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  height: 644px;
+  background-image: url(Assets/images/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  position: relative;
+}
+
+.main .box {
+  position: absolute;
+  top: 0;
+  background-color: black;
+  height: 644px;
+  opacity: 0.69;
+  width: 100%;
+}
+
+nav {
+  position: relative;
+  z-index: 10;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  max-width: 60vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo {
+  width: 140px;
+}
+
+#English {
+  background-color: transparent;
+  color: aliceblue;
+  padding: 5px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fa-angle-down {
+  margin-left: 5.2px;
+}
+
+#SignIn {
+  background-color: red;
+  color: aliceblue;
+  padding: 5px 12px;
+  margin-left: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero {
+  color: aliceblue;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 100px);
+  gap: 20px;
+  padding: 0 23px;
+}
+
+.hero > :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.separation {
+  height: 5px;
+  background-color: rgba(52, 50, 50, 0.84);
+}
+
+.login {
+  display: flex;
+  gap: 10px;
+}
+
+.login input {
+  background-color: rgba(14, 12, 12, 0.411);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.411);
+  padding: 10px 100px 10px 3px;
+  color: aliceblue;
+}
+
+.login input::placeholder {
+  color: rgba(248, 244, 244, 0.7);
+}
+
+#GetStarted {
+  background-color: red;
+  padding: 10px 17px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.login .fa-angle-down {
+  transform: rotate(-90deg);
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 38px;
+  gap: 30px;
+}
+/* .first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+} */
+
+.first #para1 {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 50px;
+}
+
+.first #para1 :nth-child(1) {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.first #para1 :nth-child(2) {
+  font-size: 22px;
+}
+
+.video-container {
+  position: relative;
+  width: 640px; /* Adjust width as needed */
+  height: 360px; /* Adjust height as needed */
+}
+
+/* Video styling */
+.video-container video {
+  transform: scale(0.958) translateY(-5px) translateX(118px);
+  width: 420px;
+  height: 360px;
+}
+
+/* Image styling */
+.video-container img {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%) scale(1.3); /* Adjust for centering */
+  z-index: 1; /* Ensure it is above the video */
+  width: 420px; /* Adjust as needed */
+  opacity: 1; /* Optional: Make the image semi-transparent */
+}
+
+.three {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 38px;
+  gap: 30px;
+}
+
+.video-container3 {
+  position: relative;
+  width: 640px; /* Adjust width as needed */
+  height: 360px; /* Adjust height as needed */
+}
+
+.video-container3 video {
+  transform: scale(1.08) translateY(-5px) translateX(118px);
+  width: 420px;
+  height: 360px;
+}
+
+.video-container3 img {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%) scale(1.3); /* Adjust for centering */
+  z-index: 1; /* Ensure it is above the video */
+  width: 420px; /* Adjust as needed */
+  opacity: 1; /* Optional: Make the image semi-transparent */
+}
+
+@media screen and (max-width:1440px){
+  .video-container video {
+    transform: scale(0.958) translateY(-5px) translateX(20px);
+    width: 314px;
+    height: 360px;
+  }
+  
+  /* Image styling */
+  .video-container img {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%) scale(1.3); /* Adjust for centering */
+    z-index: 1; /* Ensure it is above the video */
+    width: 314px; /* Adjust as needed */
+    opacity: 1; /* Optional: Make the image semi-transparent */
+  }
+
+  .video-container3 video {
+    transform: scale(0.958) translateY(-5px) translateX(20px);
+    width: 314px;
+    height: 360px;
+  }
+  
+  /* Image styling */
+  .video-container3 img {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%) scale(1.3); /* Adjust for centering */
+    z-index: 1; /* Ensure it is above the video */
+    width: 314px; /* Adjust as needed */
+    opacity: 1; /* Optional: Make the image semi-transparent */
+  }
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.faq h2 {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.faqbox:hover {
+  background-color: #3f3f3f;
+}
+
+.faqbox {
+  border-radius: 7px;
+  display: flex;
+  width: 60vw;
+  background-color: #272727;
+  padding: 20px;
+  margin: 4px auto;
+  justify-content: space-between;
+  color: aliceblue;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.login2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#GetStarted2 {
+  background-color: red;
+  padding: 10px 17px;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+.login2 p{
+  color: aliceblue;
+  margin-top: 4px;
+  margin-bottom: 15px;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 80vw;
+  margin: auto;
+  padding: 14px;
+}
+
+footer .questions {
+  padding: 34px 0;
+}
+
+footer .questions span{
+  text-decoration: underline;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-item a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#English1{
+  background-color: transparent;
+  color: aliceblue;
+  padding: 5px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 35px;
+}
+
+footer p{
+  font-size: 14px;
+}
