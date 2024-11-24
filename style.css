@@ -213,7 +213,7 @@ section.first>div :nth-child(2) {
 
 /* Video styling */
 .video-container video {
-  transform: scale(0.958) translateY(-5px) translateX(118px);
+  transform: scale(0.958) translateY(-5px) translateX(0);
   width: 420px;
   height: 360px;
 }
@@ -248,7 +248,7 @@ section.first>div :nth-child(2) {
 }
 
 .video-container3 video {
-  transform: scale(1.08) translateY(-5px) translateX(118px);
+  transform: scale(1.08) translateY(-5px) translateX(0);
   width: 420px;
   height: 360px;
 }
